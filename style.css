@@ -49,10 +49,11 @@ body{
     letter-spacing: 2px;
     font-weight: 400;
     border: solid 1px transparent;
+    border-radius: 10px;
 }
 .header-content ul a:hover{
     border: solid 1px #000000;
-    border-radius: 10px;
+    transition: 0.3s;
 }
 @media (max-width:800px){
     .header-content ul{
