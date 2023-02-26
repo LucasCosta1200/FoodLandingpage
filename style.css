@@ -58,6 +58,9 @@ body{
     .header-content ul{
         gap: 15px;
     }
+    .header-content{
+        gap: 10px;
+    }
 
 }
 @media(max-width:630px){
