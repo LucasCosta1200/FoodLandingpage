@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+p,h1,h2,h3{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #ffffff;
+}
+.header-bg{
+    background-color: #ffffff;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.logo span{
+    color: orangered;
+}
+.header-content ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.header-content ul a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #000000;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    font-weight: 400;
+    border: solid 1px transparent;
+}
+.header-content ul a:hover{
+    border: solid 1px #000000;
+    border-radius: 10px;
+}
+@media (max-width:800px){
+    .header-content ul{
+        gap: 15px;
+    }
+
+}
+@media(max-width:630px){
+    .header-content{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .header-content ul{
+        justify-content: center;
+    }
+}
+.main-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.introducao{
+    color: orangered;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+.introducao-texto{
+    font-size: 3rem;
+}
+.texto{
+    color: #8d8d8d;
+    margin-bottom: 30px;
+}
+.botao {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+@media(max-width:770px){
+    .main-content{
+        flex-wrap: wrap;
+    }
+    .introducao-texto{
+        font-size: 2rem;
+    }
+    .imagem{
+        padding: 0px 100px;
+    }
+}
+@media(max-width:670px){
+    .imagem{
+        padding: 0px 50px;
+    }
+}
+@media(max-width:470px){
+    .imagem{
+        padding: 0;
+    }
+    .introducao-texto{
+        font-size: 1.5rem;
+    }
+    .introducao{
+        font-size: 1.25rem;
+    }
+}
